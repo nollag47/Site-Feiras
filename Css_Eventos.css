@@ -1,0 +1,105 @@
+*{
+	margin: 0; padding: 0; border: 0;
+}
+
+header {
+    background-color: #66D180;
+    height: 10vh;
+    /*border-right: 3px solid #928873;
+    border-left: 3px solid #928873;*/
+    border-bottom: 3px solid #57ad6c;
+    border-top: 3px solid #66D180;
+    display: flex;
+}
+
+footer {
+    background-color: #FF636D;
+    height: 9vh;
+    /*border-right: 3px solid #928873; #d6545c
+    border-left: 3px solid #928873;*/
+    border-bottom:  1px solid #FF636D;
+    border-top: 3px solid #d6545c;
+    display: flex;
+}
+
+footer img {
+    padding-left: 3vw;
+    padding-top: 1vh;
+}
+
+.insta {
+    padding-top: 1.5vh;
+}
+
+footer h2 {
+    padding-left: 0.5vw;
+    padding-top: 2vh;
+}
+
+.menu {
+    padding-top: 3vh;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 3vw;
+    font-family: asap;
+    padding-left: 4vw;
+    font-size: 30px;
+}
+
+.menu a:hover{
+    color: #A48E5F;
+    transition: 0.3s;
+}
+
+.logo {
+    width: 70vw;
+    padding-left: 104px;
+}
+
+header h2 {
+    padding-left: 5.4vw;
+    padding-top: 1.5vh;
+}
+
+section {
+	height: 30vh;
+	border: 1px solid black;;
+	display: flex;
+}
+aside {
+	background-color: white;
+	width: 40vw;
+    text-align: right;
+}
+
+main{
+	width: 60vw;
+	background-color: white;
+}
+
+h1{
+	font-family: Asap, sans-serif;
+	padding-left: 20px;
+}
+
+h2, h3 {
+	font-family: Asap, sans-serif;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+p{
+	font-family: Nunito, sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.redes {
+	padding-top: 20px;
+}
